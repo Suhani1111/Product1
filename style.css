@@ -63,16 +63,17 @@ body {
  h3{
     color: #fff;
   }
-
-
-  
-  .img-hover:hover img {
+.img-hover:hover img {
     transform: scale(1.03);
     box-shadow: 0 15px 25px rgba(228, 226, 226, 0.2);
   }
 
 body{
   background:linear-gradient(to right, #252525, #bdc3c7); ;
+}
+
+.zoomable{
+    cursor: zoom-in;
 }
 
 
@@ -141,4 +142,6 @@ body{
   color: white;
   cursor: pointer;
 }
+
+
 
