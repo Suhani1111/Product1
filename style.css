@@ -74,3 +74,44 @@ body {
 body{
   background:linear-gradient(to right, #252525, #bdc3c7); ;
 }
+
+
+
+.img-modal {
+  display: none;
+  position: fixed;
+  z-index: 1050;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+}
+
+.img-modal-content {
+  max-width: 90vw;
+  max-height: 80vh;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  display: block;
+  margin: auto;
+}
+
+.img-modal-close {
+  position: absolute;
+  top: 32px;
+  right: 48px;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1001;
+  transition: color 0.2s;
+}
+
+.img-modal-close:hover {
+  color: #ff8888;
+}
