@@ -56,10 +56,9 @@ body {
   
   .img-hover p{
     color: #141313;
+    display: inline-block;
   }
-  .img-hover img {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+
  h3{
     color: #fff;
   }
